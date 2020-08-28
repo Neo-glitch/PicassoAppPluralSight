@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LandingActivity">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/slogan"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="@string/landing_intro"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:paddingEnd="36dp"
+        android:layout_marginTop="12dp"
+        android:paddingStart="36dp"
+        android:onClick="getStarted"
+        android:text="GET STARTED"
+        android:textColor="@color/white" />
+</LinearLayout>

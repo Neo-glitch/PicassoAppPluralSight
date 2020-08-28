@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Wired Brain Coffee Company</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="slogan">Coffee for the Mind</string>
+    <string name="landing_intro">Thanks so much for checking out our app! We\'re committed to the absolute best coffee experience around, and we hope you are too.</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="about_us">About Us</string>
+    <string name="company_one">Wired Brain Coffee Company is a modern solution for all your coffee needs.  We\'re hip, and so are you!.</string>
+    <string name="company_two">No time to wait? We now offer drive through for faster coffee.</string>
+    <string name="company_three">Don\'t start your day on empty. Sign up for our daily rewards program.</string>
+    <string name="phone">Have questions? Call us at 555-123-4567</string>
+</resources>
